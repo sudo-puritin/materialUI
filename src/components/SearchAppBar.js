@@ -74,6 +74,7 @@ export default function SearchAppBar({ setModeUI }) {
     handleMobileMenuClose();
   };
 
+  // eslint-disable-next-line no-unused-vars
   const handleMobileMenuOpen = (event) => {
     setMobileMoreAnchorEl(event.currentTarget);
   };
